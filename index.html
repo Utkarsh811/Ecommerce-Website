@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ShopKart</title>
+    <script src="script.js"></script>
+</head>
+
+<body style="background-color: black;">
+    <nav>
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+        <!-- <div class="navTop">
+            <div class="navitem">
+                <img src="shopkart.jpg" alt="" class="gif">
+            </div>
+            <div class="navitem">
+                <div class="dropdown">
+                    <button class="dropbtn">PRODUCTS</button>
+                    <div class="dropdown-content">
+                        <a href="#">MEN</a>
+                        <a href="#">WOMEN</a>
+                        <a href="#">ACCESSORIES</a>
+                        <a href="#"> LADIES</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navitem">
+                <span class="cart">Cart</span>
+            </div>
+            <div class="navitem">
+                <span class="wishlist">Wishlist</span>
+            </div>
+            <div class="navitem">
+                <span class="orders">Orders</span>
+            </div>
+            </br>
+        </div> -->
+
+        <!-- NAVBAR -->
+        <div class="topnav">
+            <div class="navitem">
+                <img src="shopkart.jpg" alt="" class="gif">
+            </div>
+
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <div class="dropdown">
+                    <button class="dropbtn">PRODUCTS</button>
+                    <div class="dropdown-content">
+                        <a href="#">MEN</a>
+                        <a href="#">WOMEN</a>
+                        <a href="#">ACCESSORIES</a>
+                        <a href="#"> LADIES</a>
+                    </div>
+                </div>
+
+                <a href="#">Cart</a>
+                <a href="#">WishList</a>
+                <a href="#">Orders</a>
+            </div>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!-- NAVBAR -->
+        <div class="line">
+            <img src="Group 16.png" height="25px" alt="">
+
+        </div>
+        </div>
+        <div class="features">
+            <img src="jessica-radanavong-IchPBHFD0pw-unsplash.png" align="right" alt="" class="featureimg">
+            <img src="fresh.png" align="left" alt="" class="fresh">
+            <img src="year.png" align="center" alt="" class="year">
+            <img src="look.png" align="left" alt="" class="look">
+        </div>
+        <div class="shape"></div>
+    </nav>
+    <Section class="section-intro1">
+        <header>
+            <h1 id="product">New Products</h1>
+            <div>
+                <img src="Group 17.png" alt="">
+            </div>
+        </header>
+        <section class="section-intro1-grid">
+
+            <div class="section-intro1-grid-list">
+                <ul type="none" class="list">
+                    <li>
+                        <p style="font-size: 30px;" style="margin: 30px;">Apparel</p>
+
+                    </li>
+                    <li>
+                        <p style="font-size: 50px;" style="margin: 30px;">Accessories</p>
+
+                    </li>
+                    <li>
+                        <p style="font-size: 30px;" style="margin: 30px;">Best Sellers</p>
+
+                    </li>
+                    <li>
+                        <p style="font-size: 30px;" style="margin: 30px;">50% Off</p>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="section-intro1-grid-images">
+                <div class="imag1">
+                    <img src="philipp-arlt-8EyB_RvaWtY-unsplash.png" alt="">
+                    <div>
+                        <h3>FLORIDA JACKET</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nisi? Neque est at asperiores quidem?</p>
+                        <h3>$100</h3>
+                    </div>
+
+                </div>
+                <div class="imag2">
+                    <img src="zam-nungaray-acw3b7q6Ys0-unsplash.png" alt="">
+                    <div>
+                        <h3>FLORIDA JACKET</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nisi? Neque est at asperiores quidem?</p>
+                        <h3>$100</h3>
+                    </div>
+
+                </div>
+                <div class="imag3">
+                    <img src="malicki-m-beser-PKMvkg7vnUo-unsplash.jpg" alt="">
+                    <div>
+                        <h3>FLORIDA JACKET</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nisi? Neque est at asperiores quidem?</p>
+                        <h3>$100</h3>
+                    </div>
+
+                </div>
+                <div class="imag4">
+                    <img src="philipp-arlt-NmH9A0obon8-unsplash.png" alt="">
+                    <div>
+                        <h3>FLORIDA JACKET</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nisi? Neque est at asperiores quidem?</p>
+                        <h3>$100</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </Section>
+    <section class="section-intro2">
+
+
+        <div class="container-first-box">
+
+            <div class="first-box-grid">
+
+                <div>
+                    <h1 id="newsletter">Newsletter</h1>
+                    <p id="para">Get news about articles and updates in your inbox.</p>
+
+                </div>
+                <div class="center">
+                    <form action="./submit.html" method="get">
+                        <div class="text-field">
+                            <label for="username">
+
+                        </label>
+                            <input type="text" name="username" id="username" placeholder="NAME" required>
+                        </div>
+                        <div class="text-field">
+                            <label for="email">
+
+                        </label>
+                            <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                        </div>
+                        <div class="text-field">
+                            <label for="message">
+
+                        </label>
+                            <input type="text" name="message" id="message" placeholder="MESSAGE" required>
+
+                        </div>
+
+                        <div class="submit">
+                            <input type="Submit" value="Submit">
+                        </div>
+
+                    </form>
+
+                </div>
+                <div>
+                    <h1 id="touch">Get in Touch</h1>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="last-box">
+            <div>
+
+                <p>Free Delivery | Return Policy</p>
+            </div>
+            <div>
+                <p>CopyRight 2022, all right reserved by SG</p>
+            </div>
+
+
+            <div class="logos">
+                <div>
+                    <p>Follow us </p>
+                </div>
+                <br>
+                <div>
+                    <img src="./Section3/fb.png" height="30rem" width="30rem" alt="">
+                </div>
+                <div>
+                    <img src="./Section3/Insta.jpg" height="30rem" width="30rem" alt="">
+                </div>
+                <div>
+                    <img src="./Section3/Link.png" height="30rem" width="30rem" alt="">
+                </div>
+                <div>
+                    <img src="./Section3/twitt.png" height="40rem" width="40rem" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+
+
+</html>
