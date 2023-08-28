@@ -330,11 +330,12 @@
   
   .topnav #myLinks {
       display: none;
+      overflow-y: scroll;
   }
   /* Style navigation menu links */
   
   .topnav a {
-      color: antiquewhite;
+      color: rgb(5, 114, 54);
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
